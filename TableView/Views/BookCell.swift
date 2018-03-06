@@ -1,5 +1,5 @@
 //
-//  StoryboardCell.swift
+//  BookCell.swift
 //  TableView
 //
 //  Created by Amanda Harman on 3/6/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StoryboardCell: UITableViewCell {
+class BookCell: UITableViewCell {
 
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var authorLabel: UILabel!

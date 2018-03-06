@@ -78,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m2f-LX-Wbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="506.89655172413796"/>
+            <point key="canvasLocation" x="-377" y="805"/>
         </scene>
         <!--Cell Reuse-->
         <scene sceneID="fht-pl-58L">
@@ -92,7 +92,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoryboardCell" rowHeight="163" id="9nH-QI-HaV" customClass="StoryboardCell" customModule="TableView" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookCell" rowHeight="163" id="9nH-QI-HaV" customClass="BookCell" customModule="TableView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="163"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9nH-QI-HaV" id="1Gh-dT-Ite">
@@ -173,10 +173,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ARE-Xf-wBd"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="jsF-zV-FwO" id="wBn-8e-hzB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZfN-KY-2Wa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456.80000000000001" y="804.64767616191909"/>
+            <point key="canvasLocation" x="457" y="825"/>
         </scene>
         <!--Basic-->
         <scene sceneID="tne-QT-ifu">
@@ -201,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="133.5832083958021"/>
+            <point key="canvasLocation" x="457" y="78"/>
         </scene>
         <!--Prefetching-->
         <scene sceneID="aZ2-X1-fEh">
@@ -242,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xRw-dD-9XF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="311" y="1568"/>
+            <point key="canvasLocation" x="457" y="1558"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aR6-Ea-3oI">
@@ -260,7 +263,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iNi-iz-gX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1118" y="507"/>
+            <point key="canvasLocation" x="-1199" y="805"/>
         </scene>
     </scenes>
 </document>
