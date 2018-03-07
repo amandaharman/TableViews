@@ -15,8 +15,6 @@ class SeriesCell: UITableViewCell {
     var dateLabel: UILabel!
     var coverImageView: UIImageView!
     
-    
-    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         // This bad practice. Only meant to look good for demo purposes for iPhone 8 Plus
@@ -29,10 +27,17 @@ class SeriesCell: UITableViewCell {
         addSubview(dateLabel)
         coverImageView = UIImageView(frame: CGRect(x: contentView.frame.size.width - 10.0 , y: 10.0, width: 91.0, height: 128.0))
         self.addSubview(coverImageView)
-
     }
+    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+    }
+    
+    func configureCell(series: Series) {
+        titleLabel.text = series.title
+        directorLabel.text = series.director
+        dateLabel.text = series.runDate
+        coverImageView.image = series.showCover
     }
     
 }

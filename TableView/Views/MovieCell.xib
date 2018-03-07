@@ -70,6 +70,7 @@
                     <constraint firstAttribute="trailing" secondItem="zFg-6D-s3K" secondAttribute="trailing" constant="10" id="4Tr-DS-sId"/>
                     <constraint firstItem="zFg-6D-s3K" firstAttribute="top" secondItem="PNF-Ct-Wpr" secondAttribute="top" constant="10" id="bNb-ga-L6m"/>
                     <constraint firstItem="zFg-6D-s3K" firstAttribute="leading" secondItem="PNF-Ct-Wpr" secondAttribute="leading" constant="10" id="irK-Py-6oq"/>
+                    <constraint firstAttribute="bottom" secondItem="zFg-6D-s3K" secondAttribute="bottom" constant="10" id="wSg-8u-dBD"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
