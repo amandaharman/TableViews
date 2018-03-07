@@ -12,20 +12,18 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
     
-    let titles = ["RowOne", "RowTwo", "RowThree"]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return titles.count
+        return 3
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell =  UITableViewCell()
-        cell.textLabel?.text = titles[indexPath.row]
+        cell.textLabel?.text = "Row \(indexPath.row)"
         return cell
     }
 }

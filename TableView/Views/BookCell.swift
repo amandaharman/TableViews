@@ -14,7 +14,7 @@ class BookCell: UITableViewCell {
     @IBOutlet var authorLabel: UILabel!
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var coverImageView: UIImageView!
-
+    
     func configureCell(book: Book) {
         titleLabel.text = book.title
         authorLabel.text = book.author

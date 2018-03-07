@@ -85,6 +85,7 @@ extension CellReuseViewController: UITableViewDataSource {
             return cell
         case Section.series.rawValue:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "SeriesCell", for: indexPath) as? SeriesCell else { break }
+//            let cell = SeriesCell(style: .default, reuseIdentifier: nil)
             cell.configureCell(series: DataController.shared.series[indexPath.row])
             return cell
         default:
