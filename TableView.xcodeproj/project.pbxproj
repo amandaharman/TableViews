@@ -21,6 +21,7 @@
 		E0FC9944204F1DF0006CD075 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9943204F1DF0006CD075 /* Movie.swift */; };
 		E0FC9946204F3813006CD075 /* SeriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9945204F3813006CD075 /* SeriesCell.swift */; };
 		E0FC9948204F79CA006CD075 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9947204F79CA006CD075 /* Series.swift */; };
+		E0FC994C204F8CBA006CD075 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC994B204F8CBA006CD075 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E0FC9943204F1DF0006CD075 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E0FC9945204F3813006CD075 /* SeriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCell.swift; sourceTree = "<group>"; };
 		E0FC9947204F79CA006CD075 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
+		E0FC994B204F8CBA006CD075 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +97,8 @@
 			children = (
 				E03A0A4B204729D500C82CFD /* LaunchScreen.storyboard */,
 				E03A0A46204729D500C82CFD /* Main.storyboard */,
-				E06B5F80204EFAFE00BE0D23 /* BookCell.swift */,
 				E0FC993F204F1B64006CD075 /* MovieCell.xib */,
+				E06B5F80204EFAFE00BE0D23 /* BookCell.swift */,
 				E0FC9941204F1D54006CD075 /* MovieCell.swift */,
 				E0FC9945204F3813006CD075 /* SeriesCell.swift */,
 			);
@@ -109,6 +111,7 @@
 				E03A0A44204729D500C82CFD /* ViewController.swift */,
 				E06B5F82204EFBE100BE0D23 /* CellReuseViewController.swift */,
 				E06B5F7E204ED56D00BE0D23 /* PrefetchingViewController.swift */,
+				E0FC994B204F8CBA006CD075 /* DataController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				E0FC9942204F1D54006CD075 /* MovieCell.swift in Sources */,
 				E0FC9946204F3813006CD075 /* SeriesCell.swift in Sources */,
 				E03A0A43204729D500C82CFD /* AppDelegate.swift in Sources */,
+				E0FC994C204F8CBA006CD075 /* DataController.swift in Sources */,
 				E0FC9944204F1DF0006CD075 /* Movie.swift in Sources */,
 				E06B5F7F204ED56D00BE0D23 /* PrefetchingViewController.swift in Sources */,
 			);

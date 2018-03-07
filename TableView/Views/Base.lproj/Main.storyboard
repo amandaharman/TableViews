@@ -37,7 +37,7 @@
                                         <rect key="frame" x="0.0" y="60" width="200" height="30"/>
                                         <color key="backgroundColor" red="0.19150733947753906" green="0.31175869703292847" blue="0.36245736479759216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Cell Reuse">
+                                        <state key="normal" title="Custom Cells">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-377" y="805"/>
         </scene>
-        <!--Cell Reuse-->
+        <!--Custom Cells-->
         <scene sceneID="fht-pl-58L">
             <objects>
-                <viewController title="Cell Reuse" id="mn6-fr-Eor" customClass="CellReuseViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Custom Cells" id="mn6-fr-Eor" customClass="CellReuseViewController" customModule="TableView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m2f-9P-Yzi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xRw-dD-9XF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="1558"/>
+            <point key="canvasLocation" x="380" y="1923"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aR6-Ea-3oI">

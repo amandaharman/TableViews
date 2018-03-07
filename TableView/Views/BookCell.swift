@@ -15,5 +15,11 @@ class BookCell: UITableViewCell {
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var coverImageView: UIImageView!
 
+    func configureCell(book: Book) {
+        titleLabel.text = book.title
+        authorLabel.text = book.author
+        dateLabel.text = book.publicationDate
+        coverImageView.image = book.bookCover
+    }
 
 }
