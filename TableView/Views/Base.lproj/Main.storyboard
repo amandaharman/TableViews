@@ -161,7 +161,6 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="mn6-fr-Eor" id="7Xv-io-E81"/>
-                                    <outlet property="delegate" destination="mn6-fr-Eor" id="45g-sa-vXM"/>
                                 </connections>
                             </tableView>
                         </subviews>
