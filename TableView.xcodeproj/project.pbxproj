@@ -19,6 +19,8 @@
 		E0FC9940204F1B64006CD075 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0FC993F204F1B64006CD075 /* MovieCell.xib */; };
 		E0FC9942204F1D54006CD075 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9941204F1D54006CD075 /* MovieCell.swift */; };
 		E0FC9944204F1DF0006CD075 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9943204F1DF0006CD075 /* Movie.swift */; };
+		E0FC9946204F3813006CD075 /* SeriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9945204F3813006CD075 /* SeriesCell.swift */; };
+		E0FC9948204F79CA006CD075 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FC9947204F79CA006CD075 /* Series.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		E0FC993F204F1B64006CD075 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		E0FC9941204F1D54006CD075 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		E0FC9943204F1DF0006CD075 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		E0FC9945204F3813006CD075 /* SeriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCell.swift; sourceTree = "<group>"; };
+		E0FC9947204F79CA006CD075 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				E06B5F84204EFCD400BE0D23 /* Book.swift */,
 				E0FC9943204F1DF0006CD075 /* Movie.swift */,
+				E0FC9947204F79CA006CD075 /* Series.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 				E06B5F80204EFAFE00BE0D23 /* BookCell.swift */,
 				E0FC993F204F1B64006CD075 /* MovieCell.xib */,
 				E0FC9941204F1D54006CD075 /* MovieCell.swift */,
+				E0FC9945204F3813006CD075 /* SeriesCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,7 +200,9 @@
 				E03A0A45204729D500C82CFD /* ViewController.swift in Sources */,
 				E06B5F85204EFCD400BE0D23 /* Book.swift in Sources */,
 				E06B5F83204EFBE100BE0D23 /* CellReuseViewController.swift in Sources */,
+				E0FC9948204F79CA006CD075 /* Series.swift in Sources */,
 				E0FC9942204F1D54006CD075 /* MovieCell.swift in Sources */,
+				E0FC9946204F3813006CD075 /* SeriesCell.swift in Sources */,
 				E03A0A43204729D500C82CFD /* AppDelegate.swift in Sources */,
 				E0FC9944204F1DF0006CD075 /* Movie.swift in Sources */,
 				E06B5F7F204ED56D00BE0D23 /* PrefetchingViewController.swift in Sources */,

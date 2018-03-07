@@ -9,10 +9,11 @@
 import UIKit
 
 class BookCell: UITableViewCell {
-
+    
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var authorLabel: UILabel!
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var coverImageView: UIImageView!
+
 
 }
